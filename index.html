@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EOH - Ambassadeurs du Ciel sur la Terre</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&family=Orbitron:wght@400;700&family=Montserrat:wght@300;400;600&family=Bebas+Neue&display=swap" rel="styleshee[...]">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🔥</text></svg>">
+</head>
+<body>
+    <!-- Flame Overlay -->
+    <div class="flame-overlay"></div>
+    <div class="fire-particles" id="fireParticles"></div>
+    
+    <!-- Header -->
+    <header>
+        <div class="header-content">
+            <div class="logo">
+                <div class="logo-main">
+                    <h1>EMBASSY OF HEAVENEOH</h1>
+                    <div class="logo-subtitle">AMBASSADEURS DU CIEL</div>
+                </div>
+                <div class="logo-icons">🦅👑🔥🙏🏾</div>
+            </div>
+            
+            <nav>
+                <ul>
+                    <li><a href="#accueil" class="nav-link"><i class="fas fa-home"></i> Accueil</a></li>
+                    <li><a href="#devise" class="nav-link"><i class="fas fa-bullhorn"></i> Notre Devise</a></li>
+                    <li><a href="#programmes" class="nav-link"><i class="fas fa-fire"></i> Programmes</a></li>
+                    <li><a href="#inscription" class="nav-link"><i class="fas fa-user-plus"></i> Rejoindre</a></li>
+                    <li><a href="#pere" class="nav-link"><i class="fas fa-hands-praying"></i> Père Spirituel</a></li>
+                    <li><a href="#contact" class="nav-link"><i class="fas fa-phone-alt"></i> Contact</a></li>
+                </ul>
+            </nav>
+            
+            <div class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+        <ul>
+            <li><a href="#accueil"><i class="fas fa-home"></i> Accueil</a></li>
+            <li><a href="#devise"><i class="fas fa-bullhorn"></i> Notre Devise</a></li>
+            <li><a href="#programmes"><i class="fas fa-fire"></i> Programmes</a></li>
+            <li><a href="#inscription"><i class="fas fa-user-plus"></i> Rejoindre</a></li>
+            <li><a href="#pere"><i class="fas fa-hands-praying"></i> Père Spirituel</a></li>
+            <li><a href="#contact"><i class="fas fa-phone-alt"></i> Contact</a></li>
+        </ul>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero" id="accueil">
+        <div class="hero-content">
+            <div class="hero-title">
+                <h2>AMBASSADEURS <span class="gradient-text">DU CIEL</span></h2>
+                <h3>SUR LA TERRE</h3>
+            </div>
+            
+            <div class="hero-subtitle">
+                <p class="tagline">LA GÉNÉRATION QUI BRÛLE POUR JÉSUS</p>
+                <div class="verse">"Vous serez mes témoins... jusqu'aux extrémités de la terre." - Actes 1:8</div>
+            </div>
+            
+            <div class="cta-buttons">
+                <a href="#inscription" class="btn-fire">
+                    <i class="fas fa-fire"></i> REJOINS LA FLAMME
+                </a>
+                <a href="#programmes" class="btn-outline">
+                    <i class="fas fa-play-circle"></i> VIRTUEL TOUR
+                </a>
+            </div>
+            
+            <!-- WhatsApp CTA -->
+            <div class="whatsapp-cta">
+                <a href="https://chat.whatsapp.com/IBvRWDXCBNJGg90q9lNvoh" class="btn-whatsapp" target="_blank">
+                    <i class="fab fa-whatsapp"></i> REJOINS NOTRE WHATSAPP
+                </a>
+                <p class="whatsapp-note">Déjà 200+ membres actifs sur le groupe</p>
+            </div>
+            
+            <div class="scroll-down">
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </div>
+        
+        <div class="hero-stats">
+            <div class="stat">
+                <div class="stat-number" data-count="200">0</div>
+                <div class="stat-label">JEUNES EN FEU</div>
+            </div>
+            <div class="stat">
+                <div class="stat-number" data-count="24">0</div>
+                <div class="stat-label">HEURES DE PRIÈRE</div>
+            </div>
+            <div class="stat">
+                <div class="stat-number" data-count="7">0</div>
+                <div class="stat-label">JOURS SUR 7</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Devise Section -->
+    <section class="devise-section" id="devise">
+        <div class="container">
+            <h2 class="section-title">NOTRE DEVISE _EOH_🦅👑🔥🙏🏾</h2>
+            
+            <div class="devise-cards">
+                <div class="devise-card">
+                    <div class="devise-icon">
+                        <i class="fas fa-globe-americas"></i>
+                    </div>
+                    <h3>AMBASSADEURS DU CIEL SUR LA TERRE</h3>
+                    <p>Nous représentons le Royaume de Dieu ici-bas. Chaque jour est une mission, chaque instant une opportunité de montrer l'amour de Christ.</p>
+                    <div class="scripture">"Nous faisons donc les fonctions d'ambassadeurs pour Christ." - 2 Corinthiens 5:20</div>
+                </div>
+                
+                <div class="devise-card">
+                    <div class="devise-icon">
+                        <i class="fas fa-dove"></i>
+                    </div>
+                    <h3>LE SAINT ESPRIT NOTRE GUIDE</h3>
+                    <p>Nous marchons par l'Esprit, nous parlons par l'Esprit, nous vivons par l'Esprit. Il est notre GPS céleste, notre conseiller, notre consolateur.</p>
+                    <div class="scripture">"L'Esprit de vérité... vous conduira dans toute la vérité." - Jean 16:13</div>
+                </div>
+                
+                <div class="devise-card">
+                    <div class="devise-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>LA SANCTIFICATION NOTRE VIE</h3>
+                    <p>Plus qu'un concept, c'est notre lifestyle. Nous fuyons le péché, poursuivons la sainteté et grandissons chaque jour à l'image de Christ.</p>
+                    <div class="scripture">"Soyez saints, car je suis saint." - 1 Pierre 1:16</div>
+                </div>
+                
+                <div class="devise-card">
+                    <div class="devise-icon">
+                        <i class="fas fa-bullhorn"></i>
+                    </div>
+                    <h3>PRÉSENTER CHRIST AU MONDE</h3>
+                    <p>Notre mission ultime : faire connaître Jésus à notre génération. Par nos vies, nos paroles, nos actions, nous pointons vers Lui.</p>
+                    <div class="scripture">"Allez, faites de toutes les nations des disciples." - Matthieu 28:19</div>
+                </div>
+            </div>
+            
+            <div class="hashtag">
+                <span>#EOHSQUAD</span>
+                <span>#GENERATIONENFEU</span>
+                <span>#AMBASSADEURSDUCIEL</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Programmes Section -->
+    <section class="programmes-section" id="programmes">
+        <div class="container">
+            <h2 class="section-title">PROGRAMMES 🔥</h2>
+            <p class="section-subtitle">DES MOMENTS PUISSANTS POUR LES JEUNES</p>
+            
+            <div class="programmes-grid">
+                <div class="programme-card">
+                    <div class="programme-header">
+                        <div class="programme-icon">
+                            <i class="fas fa-sunrise"></i>
+                        </div>
+                        <div class="programme-time">6H • QUOTIDIEN</div>
+                    </div>
+                    <h3>WAKE UP PRAYER</h3>
+                    <p>Commence ta journée en feu ! Prière du matin en ligne avec les jeunes du monde entier.</p>
+                    <div class="programme-tags">
+                        <span>En ligne</span>
+                        <span>Jeunesse</span>
+                        <span>Zap insta</span>
+                    </div>
+                </div>
+                
+                <div class="programme-card">
+                    <div class="programme-header">
+                        <div class="programme-icon">
+                            <i class="fas fa-fire"></i>
+                        </div>
+                        <div class="programme-time">VENDREDI • 21H</div>
+                    </div>
+                    <h3>FIRE NIGHT</h3>
+                    <p>La soirée la plus chaude de la semaine ! Adoration, témoignages et percée spirituelle.</p>
+                    <div class="programme-tags">
+                        <span>En présentiel</span>
+                        <span>Adoration</span>
+                        <span>Feu</span>
+                    </div>
+                </div>
+                
+                <div class="programme-card">
+                    <div class="programme-header">
+                        <div class="programme-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <div class="programme-time">SAMEDI • 20H</div>
+                    </div>
+                    <h3>YOUNG SQUAD</h3>
+                    <p>Groupe de jeunes pour étudier la Bible, partager et grandir ensemble dans la foi.</p>
+                    <div class="programme-tags">
+                        <span>12-25 ans</span>
+                        <span>Bible</span>
+                        <span>Communauté</span>
+                    </div>
+                </div>
+                
+                <div class="programme-card">
+                    <div class="programme-header">
+                        <div class="programme-icon">
+                            <i class="fas fa-gamepad"></i>
+                        </div>
+                        <div class="programme-time">DIMANCHE • 18H</div>
+                    </div>
+                    <h3>GAME & PRAY</h3>
+                    <p>Jeux vidéo chrétiens, tournois friendly et moment de prière entre gamers.</p>
+                    <div class="programme-tags">
+                        <span>Gaming</span>
+                        <span>Fun</span>
+                        <span>Priere</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Inscription Section -->
+    <section class="inscription-section" id="inscription">
+        <div class="container">
+            <div class="inscription-content">
+                <div class="inscription-text">
+                    <h2>REJOINS LA <span class="gradient-text">TEAM</span></h2>
+                    <p class="subtitle">DEVIENS UN AMBASSADEUR DU CIEL</p>
+                    
+                    <div class="features">
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Accès aux événements exclusifs</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Groupe WhatsApp </span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Mentor spirituel personnalisé</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Contenu exclusif sur les réseaux</span>
+                        </div>
+                    </div>
+                    
+                    <div class="social-proof">
+                        <div class="avatars">
+                            <div class="avatar" style="background: #FF6B6B;">JD</div>
+                            <div class="avatar" style="background: #4ECDC4;">SA</div>
+                            <div class="avatar" style="background: #FFD166;">MK</div>
+                            <div class="avatar" style="background: #06D6A0;">+50</div>
+                        </div>
+                        <p>Déjà <strong>200+ jeunes</strong> ont rejoint le mouvement</p>
+                    </div>
+                </div>
+                
+                <div class="inscription-form">
+                    <form id="registrationForm">
+                        <h3>INSCRIPTION EMBASSY OF HEAVEN</h3>
+                        
+                        <div class="form-group">
+                            <input type="text" id="fullName" placeholder="TON NOM SPIRITUEL" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Ton mail" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="tel" id="phone" placeholder="Ton numéro (optionnel)">
+                        </div>
+                        
+                        <div class="form-group">
+                            <select id="age" required>
+                                <option value="">Ton âge</option>
+                                <option value="12-17">12-17 ans</option>
+                                <option value="18-25">18-25 ans</option>
+                                <option value="26-35">26-35 ans</option>
+                                <option value="35+">35+ ans</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <select id="interest" required>
+                                <option value="">Tu kiffes quoi ?</option>
+                                <option value="prayer">Prière & Adoration</option>
+                                <option value="bible">Étude de la Bible</option>
+                                <option value="outreach">Évangélisation</option>
+                                <option value="all">Tout ça !</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <textarea id="message" placeholder="Dis-nous ce qui te passionne... (optionnel)" rows="3"></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn-submit">
+                            <i class="fas fa-fire"></i> JE REJOINS !
+                        </button>
+                        
+                        <p class="form-note">On te recontacte sous 24h max !</p>
+                    </form>
+                    
+                    <div class="form-success" id="successMessage">
+                        <div class="success-icon">
+                            <i class="fas fa-fire"></i>
+                        </div>
+                        <h3>WELCOME A LA TEAM !</h3>
+                        <p>Ton inscription est validée ! Check tes mails pour la suite.</p>
+                        <p class="success-verse">"Sois fort et courageux !" - Josué 1:9</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Père Spirituel Section -->
+    <section class="spiritual-father-section" id="pere">
+        <div class="container">
+            <div class="spiritual-father-card">
+                <div class="father-icon">
+                    <i class="fas fa-hands-praying"></i>
+                </div>
+                <div class="father-content">
+                    <h3>NOTRE PÈRE SPIRITUEL</h3>
+                    <p class="father-name">L'AMBASSADEUR JEAN EZECHIEL - Guide Spirituel d'EOH</p>
+                    <p class="father-role">Notre père dans la foi, toujours disponible pour toi</p>
+                    
+                    <div class="father-contact">
+                        <div class="contact-item">
+                            <i class="fas fa-phone-alt"></i>
+                            <div>
+                                <h4>CONTACT DIRECT</h4>
+                                <a href="tel:+2250779730711" class="phone-link">+225 07 79 73 07 11</a>
+                                <p class="contact-note">Pour conseil spirituel, prière et guidance</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <h4>DISPO POUR TOI</h4>
+                                <p>Lun-Ven: 9h-12h / 15h-18h</p>
+                                <p class="contact-note">N'hésite pas à appeler pour un besoin spirituel</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="father-message">
+                        <i class="fas fa-quote-left"></i>
+                        <p>"Je suis là pour t'accompagner dans ton cheminement avec Christ. N'hésite pas à m'appeler pour la prière ou un conseil spirituel."</p>
+                        <i class="fas fa-quote-right"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Événements Section -->
+    <section class="events-section" id="events">
+        <div class="container">
+            <h2 class="section-title">ÉVÉNEMENTS À VENIR</h2>
+            
+            <div class="events-grid">
+                <div class="event-card highlight">
+                    <div class="event-date">
+                        <div class="date-day">15</div>
+                        <div class="date-month">DEC</div>
+                    </div>
+                    <div class="event-content">
+                        <h3>FIRE FEST</h3>
+                        <p class="event-description">Le plus grand rassemblement de jeunes chrétiens de l'année ! Concerts, prédications, ateliers.</p>
+                        <div class="event-info">
+                            <span><i class="fas fa-map-marker-alt"></i> PAS DE LEIU ACTUEL</span>
+                            <span><i class="fas fa-clock"></i> 14h - 22h</span>
+                        </div>
+                        <a href="#" class="btn-event">JE RESERVE</a>
+                    </div>
+                </div>
+                
+                <div class="event-card">
+                    <div class="event-date">
+                        <div class="date-day">22</div>
+                        <div class="date-month">DEC</div>
+                    </div>
+                    <div class="event-content">
+                        <h3>NOËL AVEC EOH</h3>
+                        <p class="event-description">Célébration de Noël spéciale jeune : cadeaux, repas, louange et message inspirant.</p>
+                        <div class="event-info">
+                            <span><i class="fas fa-map-marker-alt"></i> HQ EOH</span>
+                            <span><i class="fas fa-clock"></i> 18h - Minuit</span>
+                        </div>
+                        <a href="#" class="btn-event">JE VIENS</a>
+                    </div>
+                </div>
+                
+                <div class="event-card">
+                    <div class="event-date">
+                        <div class="date-day">31</div>
+                        <div class="date-month">DEC</div>
+                    </div>
+                    <div class="event-content">
+                        <h3>NEW YEAR FIRE</h3>
+                        <p class="event-description">Veillée du Nouvel An : consécration, prière prophétique et célébration jusqu'au matin.</p>
+                        <div class="event-info">
+                            <span><i class="fas fa-map-marker-alt"></i> En ligne</span>
+                            <span><i class="fas fa-clock"></i> 22h - 2h</span>
+                        </div>
+                        <a href="#" class="btn-event">ZOOM LE LIEN</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2>RESTONS <span class="gradient-text">CONNECTÉS</span></h2>
+                    <p class="contact-subtitle">Follow-nous sur les réseaux pour ne rien rater</p>
+                    
+                    <div class="social-links">
+                        <a href="#" class="social-link instagram">
+                            <i class="fab fa-instagram"></i>
+                            <span>@eoh_ambassadeurs</span>
+                        </a>
+                        <a href="https://chat.whatsapp.com/IBvRWDXCBNJGg90q9lNvoh" class="social-link whatsapp" target="_blank">
+                            <i class="fab fa-whatsapp"></i>
+                            <span>Rejoindre le groupe EOH</span>
+                        </a>
+                        <a href="#" class="social-link youtube">
+                            <i class="fab fa-youtube"></i>
+                            <span>EOH TV</span>
+                        </a>
+                        <a href="#" class="social-link tiktok">
+                            <i class="fab fa-tiktok"></i>
+                            <span>@eoh_generation</span>
+                        </a>
+                    </div>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>EMAIL</h4>
+                                <p>squad@eoh-ambassadeurs.fr</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>TÉLÉPHONE</h4>
+                                <p>07 11 23 81 03</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>LOCALISATION</h4>
+                                <p>Partout en COTE D'IVOIRE & Online</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-image">
+                    <div class="image-frame">
+                        <div class="pulse-ring"></div>
+                        <div class="pulse-ring delay-1"></div>
+                        <div class="pulse-ring delay-2"></div>
+                        <div class="image-content">
+                            <i class="fas fa-hands-praying"></i>
+                            <p>LA TEAM T'ATTEND</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>EOH</h3>
+                    <p>Ambassadeurs du Ciel sur la Terre</p>
+                    <div class="footer-icons">🦅👑🔥🙏🏾</div>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="link-group">
+                        <h4>NAVIGATION</h4>
+                        <a href="#accueil">Accueil</a>
+                        <a href="#devise">Notre Devise</a>
+                        <a href="#programmes">Programmes</a>
+                        <a href="#pere">Père Spirituel</a>
+                    </div>
+                    
+                    <div class="link-group">
+                        <h4>RESSOURCES</h4>
+                        <a href="#">Podcasts</a>
+                        <a href="#">Vidéos</a>
+                        <a href="#">Articles</a>
+                        <a href="https://chat.whatsapp.com/IBvRWDXCBNJGg90q9lNvoh" target="_blank">WhatsApp</a>
+                    </div>
+                    
+                    <div class="link-group">
+                        <h4>CONTACTS</h4>
+                        <a href="tel:+2250779730711">+225 07 79 73 07 11</a>
+                        <a href="mailto:squad@eoh-ambassadeurs.fr">squad@eoh-ambassadeurs.fr</a>
+                        <a href="#inscription">Devenir membre</a>
+                        <a href="#contact">Réseaux sociaux</a>
+                    </div>
+                </div>
+                
+                <div class="footer-newsletter">
+                    <h4>NEWSLETTER</h4>
+                    <p>Reçois les derniers trucs cools d'EOH</p>
+                    <div class="newsletter-form">
+                        <input type="email" placeholder="Ton meilleur mail">
+                        <button type="submit">
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 EOH - Ambassadeurs du Ciel. Tous droits réservés.</p>
+                <p class="footer-verse">"Voici, je fais toutes choses nouvelles." - Apocalypse 21:5</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top -->
+    <div class="back-to-top">
+        <i class="fas fa-chevron-up"></i>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
