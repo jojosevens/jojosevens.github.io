@@ -1,0 +1,9 @@
+<?php
+// php/config/database.php.example
+// Copy this file to database.php and fill your credentials.
+return [
+    'host' => '127.0.0.1',
+    'dbname' => 'alliance_amour',
+    'user' => 'root',
+    'pass' => ''
+];
